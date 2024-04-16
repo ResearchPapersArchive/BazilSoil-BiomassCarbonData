@@ -7,9 +7,10 @@ https://static.wixstatic.com/media/b66912_c12854510e4b459a98d640f6ac7e8e48~mv2.p
   - [Objective](#objective)
   - [Data Contents](#data-contents)
   - [Significance](#significance)
-- [Metadata Description](#metadata-description)
-  - [1. all.txt](#1-alltxt)
-  - [2. Quimica.xlsx](#2-quimicaxlsx)
+- [Metadata Description and Script](#metadata-description-and-script)
+  - [all.txt](#1-alltxt)
+  - [Quimica.xlsx](#2-quimicaxlsx)
+  - [PlotCarbonStatistic.r](#2-PlotCarbonStatisticr)
 - [Main Authors’ references](#main-authors-references)
 
 # Description
@@ -37,7 +38,7 @@ Detailed physicochemical profiles of soil samples.
 This dataset is pivotal for researchers and policymakers focusing on the potentials of agricultural carbon sequestration and its implications for carbon trading schemes. It offers insights into the current contributions of no-till conservation management systems and aids in the development of future strategies to enhance carbon storage on farmlands.
 
 
-# Metadata Description
+# Metadata Description and Script
 This repository contains two key data files that encapsulate diverse aspects of soil physicochemical parameters, biomass accumulation, and carbon credit generation across different management systems in Rio Verde, GO, Brazil. Below are descriptions of each file's contents and structure.
 
 ##  all.txt
@@ -50,7 +51,7 @@ This text file presents aggregated data from various sites under different agric
 - `Biomass` - Biomass accumulation (ton/ha).
 - `Credits` - Estimated carbon credits (ton CO2 equivalent/ha). 
 
-## 2. Quimica.xlsx
+## Quimica.xlsx
 This Excel file provides detailed physicochemical analyses of soil samples from different management zones in the study area. The data is structured to support in-depth analysis of soil characteristics influencing carbon sequestration capabilities. Each sheet in the workbook corresponds to a specific area, with columns typically representing:
 
 - `pH` - Soil pH, indicating the acidity or alkalinity.
@@ -58,5 +59,8 @@ This Excel file provides detailed physicochemical analyses of soil samples from 
 - `Cation Exchange Capacity (CEC):` - (meq/100g).
 - `Organipont c Matter:` - (%).
 - `NPK levels` - Concentrations of Nitrogen (N), Phosphorus (P), and Potassium (K).
+
+## PlotCarbonStatistic.r
+Main R script that processes and analyzes soil data, including calculations of bulk density, organic carbon content, carbon stocks, biomass, and carbon credits.
 
 # Main Authors’ references
