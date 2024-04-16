@@ -14,7 +14,7 @@ p_load(char=c("geoR", "moments", "scatterplot3d", "tcltk2",
               "diffeR", "randomForest"))
 
 # Set the path where the data files are located and set it as the working directory
-PATH <- "C:\\Users\\leand\\OneDrive\\Projetos Private\\Doutorado - Engenharia Biomédica\\4_Tese\\3_CodigoFonte\\Data-Analyser-R\\artigo"
+PATH <- "C:\\Data-Analyser-R\\artigo"
 setwd(PATH)
 getwd()
 
